@@ -1,0 +1,22 @@
+
+root = true
+
+[*]
+
+indent_style = space
+
+indent_size = 4
+
+# 定义换行符 [lf | cr | crlf]
+end_of_line = lf
+
+charset = utf-8
+
+# 是否去除换行首尾的任意空白字符
+trim_trailing_whitespace = true
+
+# 文件最后是否使用一个空白行结尾
+insert_final_newline = true
+
+[*.md]
+trim_trailing_whitespace = false

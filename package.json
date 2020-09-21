@@ -1,0 +1,62 @@
+{
+    "name": "always",
+    "version": "0.0.1",
+    "description": "前端项目开发中，经常会用到一些工具函数的合集。",
+    "main": "index.js",
+    "scripts": {
+        "build": "rollup -c && yarn build:types",
+        "prettier": "prettier  --write src/*",
+        "test": "echo \"Error: no test specified\"",
+        "lint": "eslint",
+        "type-check": "tsc --noEmit",
+        "type-check:watch": "yarn type-check -- --watch",
+        "build:types": "tsc --emitDeclarationOnly",
+        "commit-msg": "commitlint -e $GIT_PARAMS",
+        "commit-name": "node .gitauthor.js",
+        "pre-push": "npx branch-name-lint",
+        "contributors:add": "all-contributors add",
+        "contributors:generate": "all-contributors generate"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Rabbitzzc/always.git"
+    },
+    "keywords": [
+        "always",
+        "utils",
+        "业务",
+        "业务函数",
+        "工具"
+    ],
+    "author": "Rabbitzzc",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Rabbitzzc/always/issues"
+    },
+    "homepage": "https://github.com/Rabbitzzc/always#readme",
+    "engines": {
+        "node": ">=10.0.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.11.6",
+        "@babel/plugin-transform-runtime": "^7.11.5",
+        "@babel/preset-env": "^7.11.5",
+        "@babel/preset-typescript": "7.10.4",
+        "@commitlint/cli": "11.0.0",
+        "@commitlint/config-conventional": "11.0.0",
+        "@typescript-eslint/eslint-plugin": "4.1.1",
+        "@typescript-eslint/parser": "4.1.1",
+        "all-contributors-cli": "6.17.2",
+        "babel-eslint": "^10.1.0",
+        "branch-name-lint": "^1.4.0",
+        "eslint": "7.9.0",
+        "eslint-config-alloy": "^3.8.0",
+        "husky": "^4.2.5",
+        "prettier": "2.1.1",
+        "rollup": "^2.26.11",
+        "rollup-plugin-babel": "^4.4.0",
+        "rollup-plugin-clear": "2.0.7",
+        "rollup-plugin-terser": "^7.0.2",
+        "typescript": "4.0.3"
+    }
+}
