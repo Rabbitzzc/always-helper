@@ -4,10 +4,12 @@
         "module": "umd", // 指定使用模块: 'commonjs', 'amd', 'system', 'umd' or 'es2015'
         "declaration": true,
         "declarationDir": "dist/types",
+        "moduleResolution": "Node",
         "outDir": "./dist",
         "lib": [
             "es6",
-            "es7"
+            "es7",
+            "dom" // 编译需要引入的库文件，比如 dom（document）等 es6
         ],
     },
     "include": [

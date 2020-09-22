@@ -26,6 +26,8 @@ module.exports = {
             'error',
             'except-parens'
         ],
+        'max-params': 'off',
+        'no-param-reassign': 'off',
         'no-console': 'off',
         'no-constant-condition': [
             'error',

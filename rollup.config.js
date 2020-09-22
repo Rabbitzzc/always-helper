@@ -27,5 +27,5 @@ export default {
             exclude: 'node_modules/**'
         }), terser()
     ],
-    external: ['dayjs']
+    external: ['dayjs', 'js-cookie', 'lodash']
 }
