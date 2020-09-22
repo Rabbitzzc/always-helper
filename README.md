@@ -69,6 +69,18 @@ import {} from 'always-lib
 * `getCurrentWeek` 获取今年第几周
 * `timeAgo`    格式化时间展示范围
 
+#### 样式相关
+
+* `addClass`     元素添加类
+* `removeClass`    元素删除类
+* `hasClass`     判断元素是否存在某个类
+* `toggleClass`    元素切换类名
+* `replaceClass`    替换元素某个类为另一个类
+* `setStyle`    设置元素样式
+* `getStyle`    获取元素样式
+* `insertCss`    将 CSS 字符串插入到 `<head>` 中
+* `loadCss`     将 CSS 链接插入到 `<head>` 中
+
 ## ⚙️ CHANGELOG
 
 [CHANGELOG](./CHANGLOG.md)

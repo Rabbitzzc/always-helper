@@ -143,7 +143,7 @@
   - 邮箱校验（https://github.com/liriliri/licia/blob/master/src/i/isEmail.js）
   - 路由 URL 校验
   - 是否全是中文
-  - 是否全是英文
+  - `是否全是英文`
   - 是否包含特殊符号
 - 事件监听
   - 监听键盘按键（https://github.com/liriliri/licia/blob/master/src/h/hotkey.js）
