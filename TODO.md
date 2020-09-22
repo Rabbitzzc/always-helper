@@ -33,14 +33,15 @@
   - 当前星期 ✅ 
   - 时间格式化为多久之前 ✅ 
 - 样式相关
-  - 添加 Class
-  - 移除 Class
-  - 切换 Class
-  - 查询 Class
-  - 设置 CSS 样式
-  - 获取指定 CSS 样式
-  - 插入 CSS 到页面中（生成 link 然后插入 css）https://github.com/liriliri/licia/blob/master/src/l/loadCss.js
-  - 插入 JS 到页面中 （https://github.com/liriliri/licia/blob/master/src/l/loadJs.js）
+  - 添加 Class  ✅ 
+  - 移除 Class ✅ 
+  - 切换 Class ✅  
+  - 查询 Class ✅ 
+  - 替换 Class ✅ 
+  - 设置 CSS 样式 ✅ 
+  - 获取指定 CSS 样式 ✅ 
+  - 插入 CSS 链接到页面中 ✅ 
+  - 插入 CSS 到页面中 ✅ 
 - DOM 操作
   - 添加 DOM 元素
   - 删除 DOM 元素
