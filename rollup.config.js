@@ -22,23 +22,18 @@ const extensions = [".ts", ".js"]
 
 /** 文件遍历   */
 const glob = require('glob')
-const files = glob.sync(__dirname + '/src/**/*.ts');
+const files = glob.sync('./src/**/*.ts');
 let filesArr = []
 files.map(file => {
     const name = path.basename(file, path.extname(file))
+    // console.log(file.slice(2, file.length - 3), name)
     filesArr.push({
         input: file,
         output: [{
-                // file: resolve(`lib/${name}.umd.min.js`),
-                format: 'cjs',
-                dir: 'lib'
-            },
-            {
-                // file: resolve(`lib/${name}.esm.min.js`),
-                format: 'esm',
-                dir: 'lib'
-            },
-        ],
+            // file: resolve(`lib/${name}.esm.min.js`),
+            format: 'esm',
+            dir: 'lib'
+        }, ],
         plugins: [
             clear({
                 targets: ["lib", 'dist', 'types']
@@ -46,7 +41,7 @@ files.map(file => {
             resove({
                 extensions: ['.ts', '.js', '.json'],
             }),
-            multiInput(),
+            multiInput(), // 根据目录生成输出文件
             babel({
                 exclude: 'node_modules/**',
                 extensions
