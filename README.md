@@ -81,6 +81,11 @@ import {} from 'always-lib
 * `insertCss`    将 CSS 字符串插入到 `<head>` 中
 * `loadCss`     将 CSS 链接插入到 `<head>` 中
 
+#### URL 相关
+
+* `parseQueryString` 解析 URL 查询字符串
+* `stringifyQueryString` 对象转化为 URL 查询字符串
+
 ## ⚙️ CHANGELOG
 
 [CHANGELOG](./CHANGLOG.md)
