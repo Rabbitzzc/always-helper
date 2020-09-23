@@ -29,16 +29,16 @@
 ### 安装
 ```sh
 # npm 
-npm install --save always-lib
+npm install --save always-helper
 
 # yarn
-yarn add always-lib
+yarn add always-helper
 ```
 
 ### 使用
 
 ```sh
-import {} from 'always-lib'
+import {setCookie} from 'always-helper'
 ```
 
 ### 备注
