@@ -3,9 +3,9 @@
         "target": "es5",
         "module": "umd", // 指定使用模块: 'commonjs', 'amd', 'system', 'umd' or 'es2015'
         "declaration": true,
-        "declarationDir": "dist/types",
+        // "declarationDir": "./typings",
         "moduleResolution": "Node",
-        "outDir": "./dist",
+        "outDir": "./types",
         "lib": [
             "es6",
             "es7",

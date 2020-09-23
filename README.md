@@ -38,8 +38,13 @@ yarn add always-lib
 ### 使用
 
 ```sh
-import {} from 'always-lib
+import {} from 'always-lib'
 ```
+
+### 备注
+
+* 如果使用了 `Cookie` 相关函数，需要提前安装 `js-cookie`
+* 如果使用了「日期相关」函数，需要提前安装 `dayjs`
 
 ### API 文档
 
@@ -81,10 +86,18 @@ import {} from 'always-lib
 * `insertCss`    将 CSS 字符串插入到 `<head>` 中
 * `loadCss`     将 CSS 链接插入到 `<head>` 中
 
-#### URL 相关
+#### `URL` 相关
 
-* `parseQueryString` 解析 URL 查询字符串
-* `stringifyQueryString` 对象转化为 URL 查询字符串
+* `parseQueryString`     解析 URL 查询字符串
+* `stringifyQueryString`     对象转化为 URL 查询字符串
+
+随机数相关
+
+* `randomInt`    随机生成一个整数
+* `randomString`    随机生成一个字符串（包含大写、小写、数字）
+* `randomCnChar`     随机生成中文串
+* `randomColor`     随机生成颜色（16 进制）
+* `uuid`     生成一个 uuid
 
 ## ⚙️ CHANGELOG
 

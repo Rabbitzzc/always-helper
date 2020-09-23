@@ -93,9 +93,9 @@
   - 是否为 JSON
   - 是否为函数
 - Cookie
-  - 添加 Cookie
-  - 删除 Cookie
-  - 获取 Cookie
+  - 添加 Cookie ✅ 
+  - 删除 Cookie ✅ 
+  - 获取 Cookie ✅ 
 - 本地存储（https://github.com/ustbhuangyi/storage）
   - 增加
   - 删除
@@ -119,13 +119,12 @@
   - 小数转化为分数（https://github.com/liriliri/licia/blob/master/src/f/fraction.js）
   - 
 - 随机数
-  - 随机整数产生（产生随机整数，包含下限值，包括上限值）
-  - 随机小数
-  - 随机颜色
-  - 随机唯一的 Hash 值生成（uuid/v4）
-  - 根据 key/value 配置生成随机对象数组（用户快速 Mock 数据）
+  - 随机整数产生（产生随机整数，包含下限值，包括上限值） ✅ 
+  - 随机字符串 ✅ 
+  - 随机颜色  ✅ 
+  - 随机唯一的 Hash 值生成  ✅ 
   - 根据函数调用，返回一个随机的图片
-  - 随机生成中文名称
+  - 随机生成中文名称  ✅ 
   - 随机生成英文名称
   - 随机生成中英文混合名称
 - 颜色相关

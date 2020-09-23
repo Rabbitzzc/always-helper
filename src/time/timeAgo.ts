@@ -51,7 +51,6 @@ const timeAgo = (date: any, now?: any, lang = 'cn') => {
     // 如果是 >0，表示为之前，如果小于 <0，表示接下来
     const ago = diff > 0
 
-
     let i = 0
 
     diff = Math.abs(diff)
@@ -66,7 +65,7 @@ const timeAgo = (date: any, now?: any, lang = 'cn') => {
 
     if (diff > (i === 0 ? 9 : 1)) i += 1
 
-    return format(diff, i, ago)
+    return format(diff, i, ago, lang)
 }
 
 

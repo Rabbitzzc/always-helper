@@ -1,4 +1,9 @@
 import babel from "rollup-plugin-babel"
+import resove from 'rollup-plugin-node-resolve'
+import filesize from 'rollup-plugin-filesize'
+
+// 多入口文件
+import multiInput from 'rollup-plugin-multi-input'
 
 // 压缩
 import {
@@ -12,20 +17,47 @@ const path = require('path')
 const resolve = function (filePath) {
     return path.join(__dirname, filePath)
 }
-export default {
-    input: resolve('/src/index.ts'), // 入口文件
-    output: [{ // 出口文件
-        file: resolve('dist/index.min.js'),
-        format: 'umd',
-        name: 'npm-lib',
-    }],
-    plugins: [
-        clear({
-            targets: ["dist"]
-        }),
-        babel({
-            exclude: 'node_modules/**'
-        }), terser()
-    ],
-    external: ['dayjs', 'js-cookie', 'lodash']
-}
+
+const extensions = [".ts", ".js"]
+
+/** 文件遍历   */
+const glob = require('glob')
+const files = glob.sync(__dirname + '/src/**/*.ts');
+let filesArr = []
+files.map(file => {
+    const name = path.basename(file, path.extname(file))
+    filesArr.push({
+        input: file,
+        output: [{
+                // file: resolve(`lib/${name}.umd.min.js`),
+                format: 'cjs',
+                dir: 'lib'
+            },
+            {
+                // file: resolve(`lib/${name}.esm.min.js`),
+                format: 'esm',
+                dir: 'lib'
+            },
+        ],
+        plugins: [
+            clear({
+                targets: ["lib", 'dist', 'types']
+            }),
+            resove({
+                extensions: ['.ts', '.js', '.json'],
+            }),
+            multiInput(),
+            babel({
+                exclude: 'node_modules/**',
+                extensions
+            }),
+            terser(),
+            filesize()
+        ],
+        external: ['dayjs', 'js-cookie', 'lodash']
+    })
+})
+
+/** -------------------------------------------------------- */
+
+export default filesArr
