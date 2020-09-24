@@ -4,7 +4,7 @@
 import * as dayjs from 'dayjs'
 import beforeDay from './beforeDay'
 
-const beforeDays = (num: number, format: string): string[] => {
+const beforeDays = (num: number, format = 'YYYY-MM-DD'): string[] => {
     return [beforeDay(dayjs(), num, format), beforeDay(dayjs(), 1, format)]
 }
 

@@ -12,7 +12,7 @@
         "api": "api-extractor run",
         "build": "rollup -c && yarn build:types",
         "prettier": "prettier  --write src/*",
-        "test": "echo \"Error: no test specified\"",
+        "test": "jest",
         "lint": "eslint",
         "type-check": "tsc --noEmit",
         "type-check:watch": "yarn type-check -- --watch",
@@ -51,6 +51,7 @@
         "@commitlint/cli": "11.0.0",
         "@commitlint/config-conventional": "11.0.0",
         "@microsoft/api-extractor": "7.9.22",
+        "@types/jest": "26.0.14",
         "@typescript-eslint/eslint-plugin": "4.1.1",
         "@typescript-eslint/parser": "4.1.1",
         "all-contributors-cli": "6.17.2",
@@ -62,6 +63,7 @@
         "eslint-config-alloy": "^3.8.0",
         "glob": "7.1.6",
         "husky": "^4.2.5",
+        "jest": "26.4.2",
         "js-cookie": "2.2.1",
         "prettier": "2.1.1",
         "rollup": "^2.26.11",
@@ -71,6 +73,8 @@
         "rollup-plugin-multi-input": "1.1.1",
         "rollup-plugin-node-resolve": "5.2.0",
         "rollup-plugin-terser": "^7.0.2",
+        "ts-jest": "26.4.0",
+        "ts-node": "9.0.0",
         "typescript": "4.0.3"
     }
 }

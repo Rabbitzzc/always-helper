@@ -5,6 +5,7 @@
         "declaration": true,
         // "declarationDir": "./typings",
         "moduleResolution": "Node",
+        // "esModuleInterop": true,
         "outDir": "./types",
         "lib": [
             "es6",

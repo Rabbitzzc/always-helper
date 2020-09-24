@@ -8,7 +8,9 @@ const stringifyQueryString = (obj: object, prefix?: string) => {
 
     for (let key in obj) {
         if (obj.hasOwnProperty(key)) {
-            str.push(obj[key] !== null && typeof obj[key] === "object" ? stringifyQueryString(obj[key], (prefix ? prefix + "[" + key + "]" : key)) : encodeURIComponent(key) + "=" + encodeURIComponent(obj[key]))
+            const k = prefix ? (prefix + "[" + key + "]") : key
+            const v = obj[key]
+            str.push(v !== null && typeof v === "object" ? stringifyQueryString(v, k) : encodeURIComponent(k) + "=" + encodeURIComponent(v))
         }
     }
     return str.join("&")
