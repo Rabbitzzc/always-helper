@@ -99,6 +99,17 @@ import {setCookie} from 'always-helper'
 * `randomColor`     随机生成颜色（16 进制）
 * `uuid`     生成一个 uuid
 
+#### `DOM` 相关
+
+* `fullscreen`    进入全屏/退出全屏
+* `copyElement2Clipboard`     复制 DOM 元素到剪贴板
+* `copyElementImage2Clipboard`     将 DOM 元素生成图片并复制到剪贴板
+* `downloadElementImage`     将 DOM 元素转化为图片并下载到本地
+* `inDarkMode`     将页面切换为暗黑模式
+* `inview`    判断一个 DOM 元素是否在可是区域内
+* `scrollTop`    将页面滚动到顶部
+* `scrollBottom`    将页面滚动到底部
+
 ## ⚙️ CHANGELOG
 
 [CHANGELOG](./CHANGLOG.md)

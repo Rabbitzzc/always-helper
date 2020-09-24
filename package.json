@@ -4,6 +4,10 @@
     "description": "前端项目开发中，经常会用到一些工具函数的合集。",
     "main": "./lib/index.js",
     "types": "./types/index.d.ts",
+    "files": [
+        "lib",
+        "types"
+    ],
     "scripts": {
         "api": "api-extractor run",
         "build": "rollup -c && yarn build:types",
@@ -53,6 +57,7 @@
         "babel-eslint": "^10.1.0",
         "branch-name-lint": "^1.4.0",
         "dayjs": "1.8.36",
+        "dom-to-image": "2.6.0",
         "eslint": "7.9.0",
         "eslint-config-alloy": "^3.8.0",
         "glob": "7.1.6",

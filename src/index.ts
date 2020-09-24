@@ -28,7 +28,7 @@ import addClass from './style/addClass'
 import removeClass from './style/removeClass'
 import hasClass from './style/hasClass'
 import getStyle from './style/getStyle'
-import insetCss from './style/insetCss'
+import insertCss from './style/insertCss'
 import setStyle from './style/setStyle'
 import loadCss from './style/loadCss'
 import toggleClass from './style/toggleClass'
@@ -44,6 +44,16 @@ import randomColor from './random/randomColor'
 import randomInt from './random/randomInt'
 import randomString from './random/randomString'
 import uuid from './random/uuid'
+
+// DOM 相关 8 个
+import fullscreen from './dom/fullscreen'
+import copyElement2Clipboard from './dom/copyElement2Clipboard'
+import copyElementImage2Clipboard from './dom/copyElementImage2Clipboard'
+import downloadElementImage from './dom/downloadElementImage'
+import inDarkMode from './dom/inDarkMode'
+import inview from './dom/inview'
+import scrollTop from './dom/scrollTop'
+import scrollBottom from './dom/scrollBottom'
 
 
 export {
@@ -72,7 +82,7 @@ export {
     removeClass,
     hasClass,
     getStyle,
-    insetCss,
+    insertCss,
     setStyle,
     loadCss,
     toggleClass,
@@ -83,5 +93,13 @@ export {
     randomColor,
     randomInt,
     randomString,
-    uuid
+    uuid,
+    fullscreen,
+    copyElement2Clipboard,
+    copyElementImage2Clipboard,
+    downloadElementImage,
+    inDarkMode,
+    inview,
+    scrollTop,
+    scrollBottom
 }

@@ -49,7 +49,7 @@ files.map(file => {
             terser(),
             filesize()
         ],
-        external: ['dayjs', 'js-cookie', 'lodash']
+        external: ['dayjs', 'js-cookie', 'lodash', 'dom-to-image']
     })
 })
 
