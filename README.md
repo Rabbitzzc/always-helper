@@ -2,14 +2,14 @@
  <img align="center" width="180" src="https://github.com/Rabbitzzc/image-hosting-service/blob/master/images/always-avator.png?raw=true" />
   <h2>always</h2>
   <blockquote>前端项目开发中，经常会用到一些工具函数的合集。</blockquote>
-  <!-- <img alt="npm" src="https://img.shields.io/npm/dw/test">
-  <img alt="Travis (.org)" src="https://img.shields.io/travis/rust-lang/rust">
-  <img alt="npm" src="https://img.shields.io/npm/v/test">
-  <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/npm-template/js-npm-template">
-  <img alt="npm bundle size" src="https://img.shields.io/bundlephobia/minzip/test">
-  <img alt="node-current" src="https://img.shields.io/node/v/test">
-  <img alt="GitHub" src="https://img.shields.io/github/license/npm-template/js-npm-template">
-  <img alt="GitHub issues" src="https://img.shields.io/github/issues-raw/npm-template/js-npm-template"> -->
+  <img alt="npm bundle size" src="https://img.shields.io/bundlephobia/minzip/always-helper">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/Rabbitzzc/always-helper">
+  <img alt="Travis (.org)" src="https://img.shields.io/travis/Rabbitzzc/always-helper">
+  <img alt="GitHub issues" src="https://img.shields.io/github/issues/Rabbitzzc/always-helper">
+  <img alt="node-current" src="https://img.shields.io/node/v/always-helper">
+  <img alt="npm" src="https://img.shields.io/npm/dm/always-helper">
+  <img alt="NPM" src="https://img.shields.io/npm/l/always-helper">
+  <img alt="Packagist Stars" src="https://img.shields.io/packagist/stars/Rabbitzzc/always-helper">
 
 <strong>前端项目开发中，总会碰到这一类问题，所以为了提高前端的开发效率，减少代码重复率，所以这里统一封装了这些方法。</strong>
 </div>
