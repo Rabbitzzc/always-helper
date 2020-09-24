@@ -91,7 +91,7 @@ import {setCookie} from 'always-helper'
 * `parseQueryString`     解析 URL 查询字符串
 * `stringifyQueryString`     对象转化为 URL 查询字符串
 
-随机数相关
+#### 随机数相关
 
 * `randomInt`    随机生成一个整数
 * `randomString`    随机生成一个字符串（包含大写、小写、数字）
