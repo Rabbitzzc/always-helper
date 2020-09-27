@@ -4,7 +4,7 @@
   <blockquote>前端项目开发中，经常会用到一些工具函数的合集。</blockquote>
   <img alt="npm bundle size" src="https://img.shields.io/bundlephobia/minzip/always-helper">
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/Rabbitzzc/always-helper">
-  <img alt="Travis (.org)" src="https://img.shields.io/travis/Rabbitzzc/always-helper">
+  <img alt="Travis (.com)" src="https://img.shields.io/travis/com/Rabbitzzc/always-helper">
   <img alt="GitHub issues" src="https://img.shields.io/github/issues/Rabbitzzc/always-helper">
   <img alt="node-current" src="https://img.shields.io/node/v/always-helper">
   <img alt="npm" src="https://img.shields.io/npm/dm/always-helper">
