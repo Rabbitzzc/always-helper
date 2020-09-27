@@ -1,6 +1,6 @@
  <div align="center">
  <img align="center" width="180" src="https://github.com/Rabbitzzc/image-hosting-service/blob/master/images/always-avator.png?raw=true" />
-  <h2>always</h2>
+  <h2>always-helper</h2>
   <blockquote>前端项目开发中，经常会用到一些工具函数的合集。</blockquote>
   <img alt="npm bundle size" src="https://img.shields.io/bundlephobia/minzip/always-helper">
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/Rabbitzzc/always-helper">
