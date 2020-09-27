@@ -9,7 +9,7 @@
   <img alt="node-current" src="https://img.shields.io/node/v/always-helper">
   <img alt="npm" src="https://img.shields.io/npm/dm/always-helper">
   <img alt="NPM" src="https://img.shields.io/npm/l/always-helper">
-  <img alt="Packagist Stars" src="https://img.shields.io/packagist/stars/Rabbitzzc/always-helper">
+  <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Rabbitzzc/always-helper">
 
 <strong>前端项目开发中，总会碰到这一类问题，所以为了提高前端的开发效率，减少代码重复率，所以这里统一封装了这些方法。</strong>
 </div>
