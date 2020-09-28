@@ -110,6 +110,11 @@ import {setCookie} from 'always-helper'
 * `scrollTop`    将页面滚动到顶部
 * `scrollBottom`    将页面滚动到底部
 
+#### 颜色转换相关
+
+* `hexToRgb`  HEX 格式转化为 RGB 格式
+* `rgbToHex`  RGB 格式转化为 HEX 格式
+
 ## ⚙️ CHANGELOG
 
 [CHANGELOG](./CHANGLOG.md)
