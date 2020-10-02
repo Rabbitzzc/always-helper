@@ -1,6 +1,6 @@
 {
     "name": "always-helper",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "description": "前端项目开发中，经常会用到一些工具函数的合集。",
     "main": "./lib/index.js",
     "types": "./types/index.d.ts",
