@@ -115,6 +115,14 @@ import {setCookie} from 'always-helper'
 * `hexToRgb`  HEX 格式转化为 RGB 格式
 * `rgbToHex`  RGB 格式转化为 HEX 格式
 
+#### 数字相关
+
+* `fileSize`  字节单位转换
+
+* `commafy`    数字每三位增加逗号
+
+  
+
 ## ⚙️ CHANGELOG
 
 [CHANGELOG](./CHANGLOG.md)

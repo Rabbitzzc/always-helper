@@ -110,10 +110,8 @@
   - 数字转为中文（https://github.com/Ailln/cn2an）
   - 数字转为人民币，添加单位
 - 数字相关
-  - 字节转换，将字节转化为 Kb、M、T 等（https://github.com/liriliri/licia/blob/master/src/f/fileSize.js）
-  - 数字每三位分离个逗号
-  - 小数转化为分数（https://github.com/liriliri/licia/blob/master/src/f/fraction.js）
-  - 
+  - 字节转换，将字节转化为 Kb、M、T 等 ✅  💚
+  - 数字每三位分离个逗号 ✅  💚
 - 随机数
   - 随机整数产生（产生随机整数，包含下限值，包括上限值） ✅  💚
   - 随机字符串 ✅  💚
