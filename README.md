@@ -118,10 +118,14 @@ import {setCookie} from 'always-helper'
 #### 数字相关
 
 * `fileSize`  字节单位转换
-
 * `commafy`    数字每三位增加逗号
 
-  
+#### 正则相关
+
+* `verifyIdCard` 身份证验证
+* `verifyEmail`  邮箱验证
+* `verifyCellNumber`  手机号验证
+* `verifyUrl`   网页地址验证
 
 ## ⚙️ CHANGELOG
 
