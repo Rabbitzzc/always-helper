@@ -127,6 +127,20 @@ import {setCookie} from 'always-helper'
 * `verifyCellNumber`  手机号验证
 * `verifyUrl`   网页地址验证
 
+#### 设备相关
+
+* `getOS`  获取操作系统
+* `isAndroid`  是否为 `Android` 设备
+* `isIos` 是否为 `iOS` 设备
+* `isIpv4` ipv4 检测
+* `isIpv6` ipv6 检测
+* `isMobile`   是否为移动端
+* `isWeixin`  是否为微信内置浏览器打开
+
+#### 对象相关
+
+* `objEmpty`  判断对象是否为空
+
 ## ⚙️ CHANGELOG
 
 [CHANGELOG](./CHANGLOG.md)

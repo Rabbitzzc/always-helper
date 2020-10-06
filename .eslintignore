@@ -8,3 +8,6 @@ build/*
 
 
 rollup.config.js
+
+
+lib
