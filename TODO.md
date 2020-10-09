@@ -53,10 +53,7 @@
   - DOM 是否在可视区域（SCA 中有用到） ✅ 
   - 切换暗黑模式（三行代码） ✅ 
 - 数组相关
-  - 数组求和
-  - 数组相等
   - 数组去重
-  - 数组扁平化
   - 数组交集（https://github.com/sisterAn/JavaScript-Algorithms/issues/6） - 通常要看两个商家是否有重复的数据
   - 数组长度默认填充（https://juejin.im/post/6844903801082609677#heading-3）
 - 对象相关
@@ -65,23 +62,11 @@
   - 柯里化
   - 公共区间（https://github.com/liriliri/licia/blob/master/src/i/intersectRange.js）
   - Sleep 函数（Promise 实现）
-  - 节流
-  - 防抖
-  - 
 - 字符串相关
-  - 字符串长度限制添加省略号
-  - 字符串相似度计算
-  - 子串查询
-  - 最长公共子串
+  - 字符串长度限制添加省略号s
 - 类型判断
-  - 是否为数组（https://github.com/liriliri/licia/blob/master/src/i/isArr.js）
-  - 是否为字符串
-  - 是否为 Null
-  - 是否为 NaN
-  - 是否为 Undefined
+  - 是否为数组（https://github.com/liriliri/licia/blob/master/src/i/isArr.js
   - 是否为 Nil（null/undefined）https://github.com/liriliri/licia/blob/master/src/i/isNil.js
-  - 是否为正则
-  - 是否为数字
   - 是否为整数（https://github.com/liriliri/licia/blob/master/src/i/isInt.js）
   - 是否为 JSON
   - 是否为函数

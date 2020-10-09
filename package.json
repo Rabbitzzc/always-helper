@@ -21,7 +21,8 @@
         "commit-name": "node .gitauthor.js",
         "pre-push": "npx branch-name-lint",
         "contributors:add": "all-contributors add",
-        "contributors:generate": "all-contributors generate"
+        "contributors:generate": "all-contributors generate",
+        "docs": "docsify serve docs"
     },
     "repository": {
         "type": "git",
