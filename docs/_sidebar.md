@@ -3,3 +3,17 @@
 * Cookie
   * [setCookie](./cookie/setCookie.md)
   * [getCookie](./cookie/getCookie.md)
+  * [removeCookie](./cookie/removeCookie.md)
+  * [checkCookie](./cookie/checkCookie.md)
+* 时间函数
+  * [today](./时间函数/today.md)
+  * [yestoday](./时间函数/yestoday.md)
+  * [beforeDay](./时间函数/beforeDay.md)
+  * [currentWeek](./时间函数/currentWeek.md)
+  * [lastWeek](./时间函数/lastWeek.md)
+  * [nextWeek](./时间函数/nextWeek.md)
+  * [beforeWeek](./时间函数/beforeWeek.md)
+  * [beforeDays](./时间函数/beforeDays.md)
+  * [currentMonth](./时间函数/currentMonth.md)
+  * [lastMonth](./时间函数/lastMonth.md)
+

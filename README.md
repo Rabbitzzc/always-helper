@@ -63,6 +63,7 @@ import {setCookie} from 'always-helper'
 * `currentWeek` 获取本周起止时间
 * `lastWeek`    获取上周起止时间
 * `nextWeek`    获取下周起止时间
+* `beforeWeek`   获取过去第 n 周的起止日期
 * `beforeDays`    获取过去 n 天的起止时间
 * `currentMonth`     获取本月起止时间
 * `lastMonth`    获取上个月的起止时间
