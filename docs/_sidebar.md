@@ -16,4 +16,13 @@
   * [beforeDays](./时间函数/beforeDays.md)
   * [currentMonth](./时间函数/currentMonth.md)
   * [lastMonth](./时间函数/lastMonth.md)
-
+* 样式函数
+  * [addClass](./样式函数/addClass.md)
+  * [removeClass](./样式函数/removeClass.md)
+  * [hasClass](./样式函数/hasClass.md)
+  * [toggleClass](./样式函数/toggleClass.md)
+  * [replaceClass](./样式函数/replaceClass.md)
+  * [setStyle](./样式函数/setStyle.md)
+  * [getStyle](./样式函数/getStyle.md)
+  * [insertCss](./样式函数/insertCss.md)
+  * [loadCss](./样式函数/loadCss.md)
