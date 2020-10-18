@@ -26,3 +26,6 @@
   * [getStyle](./样式函数/getStyle.md)
   * [insertCss](./样式函数/insertCss.md)
   * [loadCss](./样式函数/loadCss.md)
+* URL函数
+  * [parseQueryString](./URL函数/parseQueryString.md)
+  * [stringifyQueryString](./URL函数/stringifyQueryString.md)
