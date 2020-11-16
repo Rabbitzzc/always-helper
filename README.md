@@ -99,6 +99,7 @@ import {setCookie} from 'always-helper'
 * `randomCnChar`     随机生成中文串
 * `randomColor`     随机生成颜色（16 进制）
 * `uuid`     生成一个 uuid
+* `randomAvatar`     随机生成头像 avatar 链接，包含 http 或者 https 协议头
 
 #### `DOM` 相关
 
@@ -161,3 +162,5 @@ import {setCookie} from 'always-helper'
   * `dayjs` 本身非常轻量（2KB），功能上也不差，语法也非常友好，支持链式操作，同时兼容性也是非常优秀的。基于上面两个原因，所以选择了 `dayjs`。
 * [Q] 为什么使用 `js-cookie` 作为 cookie 处理工具？
   * `js-cookie` 在 cookie 库中一枝独秀，有着非常好的影响力。同时 `js-ccokie` 非常轻量（< 1KB），我认为我们不需要重复建设。
+* [Q] 有没有更好的随机数工具库？
+  * 推荐使用[chancejs](https://github.com/chancejs/chancejs)，但是仓库比较大
