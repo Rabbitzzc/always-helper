@@ -10,17 +10,16 @@
   <img alt="npm" src="https://img.shields.io/npm/dm/always-helper">
   <img alt="NPM" src="https://img.shields.io/npm/l/always-helper">
   <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Rabbitzzc/always-helper">
-
-<strong>前端项目开发中，总会碰到这一类问题，所以为了提高前端的开发效率，减少代码重复率，所以这里统一封装了这些方法。</strong>
 </div>
 
+前端项目开发中，总会碰到这一类问题，所以为了提高前端的开发效率，减少代码重复率，所以这里统一封装了这些方法。
 
 ## ⭐️ 特性
-
-- 使用 typescript 编写，提供更好的代码提示和类型检查。
-- 测试全覆盖，代码可用性得到保证。
-- 不重复建设，利用现有的优秀开源库开发一些函数（大项目中经常会用到的一些库，比如 `lodash`、`dayjs`、`js-cookie` 等）。
-- 覆盖 `日期格式化`、`url参数转换`、`浏览器类型判断`、`节流函数`、`字符串/数组处理`、`本地缓存`、`Cookie 增删改查`、`颜色转换`、`DOM 操作`、`随机数生成`、`金额转换` 等前端常用工具函数。
+ 
+- [x] 使用 typescript 编写，提供更好的代码提示和类型检查。
+- [x] 测试全覆盖，代码可用性得到保证。
+- [x] 不重复建设，利用现有的优秀开源库开发一些函数（大项目中经常会用到的一些库，比如 `lodash`、`dayjs`、`js-cookie` 等）。
+- [x] 覆盖 `日期格式化`、`url参数转换`、`浏览器类型判断`、`节流函数`、`字符串/数组处理`、`本地缓存`、`Cookie 增删改查`、`颜色转换`、`DOM 操作`、`随机数生成`、`金额转换` 等前端常用工具函数。
 
 
 
